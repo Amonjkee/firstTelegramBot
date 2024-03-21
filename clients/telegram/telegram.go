@@ -22,7 +22,6 @@ const (
 	sendMessageMethod   = "sendMessage"
 	updateMessageMethod = "updateMessage"
 	deleteMessageMethod = "updateMessage"
-	putMessageMethod    = "updateMessage"
 )
 
 func New(host, token string) *Client {
