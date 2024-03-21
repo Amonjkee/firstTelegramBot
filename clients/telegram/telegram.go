@@ -21,7 +21,6 @@ const (
 	getUpdatesMethod    = "getUpdates"
 	sendMessageMethod   = "sendMessage"
 	updateMessageMethod = "updateMessage"
-	deleteMessageMethod = "updateMessage"
 	putMessageMethod    = "updateMessage"
 )
 
