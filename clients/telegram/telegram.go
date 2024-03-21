@@ -7,6 +7,7 @@ import (
 	"net/url"
 	"path"
 	"strconv"
+
 	"tgBot/lib/e"
 )
 
@@ -17,8 +18,9 @@ type Client struct {
 }
 
 const (
-	getUpdatesMethod  = "getUpdates"
-	sendMessageMethod = "sendMessage"
+	getUpdatesMethod    = "getUpdates"
+	sendMessageMethod   = "sendMessage"
+	updateMessageMethod = "updateMessage"
 )
 
 func New(host, token string) *Client {
